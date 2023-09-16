@@ -59,8 +59,8 @@ public class GooglyEyes extends PApplet {
 
     @Override
     public void draw() {
-    	if(mouseX>330) {
-    		mouseX=300;
+    	if(mouseX>320) {
+    		mouseX=320;
     	}
     	else if(mouseX<250) {
     		mouseX=250;
